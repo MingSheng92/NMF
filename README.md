@@ -1,5 +1,8 @@
 # Projected Gradient for Non-Negative Matrix Factorization
 
+This is only an attempt to implement NMF algorithm proposed in C. Lin, <b>"Projected Gradient Methods for Nonnegative Matrix Factorization,"</b> in Neural Computation, vol. 19, no. 10, pp. 2756-2779, Oct. 2007.
+doi: 10.1162/neco.2007.19.10.2756
+
 ## Introduction 
 
 Non-Negative Matrix Factorization (NMF) is a group of unsupervised machine learning techniques which factors a multivariate dataset as the approximate product of two lower dimension matrices. NMF is widely applied in various fields such as astronomy, computer and recommender systems. In this project we are interested in implementing NMF algorithm and analyze the robustness of the algorithm when the dataset is contaminated by different types of noise.
@@ -29,7 +32,12 @@ For more information on the proofs and intuition of the algorithm, please kindly
 
 Example on how to use program can be found at [PG-NMF_example.ipynb](https://github.com/MingSheng92/NMF/blob/master/PG-NMF_example.ipynb).
 
-Additional information: \
+## Future work 
+
+Will try to implement a few more different algorithms so that we can compare the robustness of different proposed approach.
+
+## Additional information
+
 https://angms.science/doc/NMF/nmf_pgd.pdf \
 
 latex generated with https://www.codecogs.com/latex/eqneditor.php
