@@ -10,11 +10,10 @@ Our objective is to ﬁnd two non-negative matrix factors _W_ and _H_ which mult
 
 Where _W_ contains a basis optimized for the linear approximation of data in _V_, weighted by the components in _H_, i.e. Each column of _W_ is a basis element. If _V_ is our proverbial cake, then _W_ and _H_ are our list of core ingredients and their respective amounts. 
 
-More in depth information on NMF can be found at https://en.wikipedia.org/wiki/Non-negative_matrix_factorization.
+More in depth information on NMF can be found at [Wikipedia](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization).
 
-## Related Work
+## Projected Gradient methods for NMF
 
-Many researchers have proposed various different methods of projected gradient in optimizing NMF. <b> Add in more stuff later</b>
 
 ## Method
 ### Datasets
