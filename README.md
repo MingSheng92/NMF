@@ -28,6 +28,14 @@ Applying projected gradient method into alternating non-negative least squares a
 
 For more information on the proofs and intuition of the algorithm, please kindly refer to the [research paper](https://www.csie.ntu.edu.tw/~cjlin/papers/pgradnmf.pdf).
 
+## Results 
+
+As shown in the figure below, we manage to get a decent reconstuction(denoise) from the noisy images. 
+
+![Figure2](https://github.com/MingSheng92/NMF/blob/master/ProjectedNMF.jpg)
+
+From the figure above, YaleB dataset has better reconstruction result, as I believe this is due to the dataset have perfectly centered face compared to ORL dataset. This suggests that we need some pre-processing on ORL to obatain a better result.
+
 ## How to use
 
 Example on how to use program can be found at [PG-NMF_example.ipynb](https://github.com/MingSheng92/NMF/blob/master/PG-NMF_example.ipynb).
