@@ -46,6 +46,6 @@ Will try to implement a few more different algorithms so that we can compare the
 
 ## Additional information
 
-https://angms.science/doc/NMF/nmf_pgd.pdf \
+https://angms.science/doc/NMF/nmf_pgd.pdf 
 
 latex generated with https://www.codecogs.com/latex/eqneditor.php
