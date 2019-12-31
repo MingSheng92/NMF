@@ -15,6 +15,8 @@ Where _W_ contains a basis optimized for the linear approximation of data in _V_
 
 More in depth information on NMF can be found at [Wikipedia](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization).
 
+With NMF, we are hoping that we can learn representation/latent factor of the images that we can reconstruct faces from any situation, in this case it will be reconstructing noisy face or even reconstruct face image in dark lighting condition.
+
 ## Projected Gradient methods for NMF
 
 By altering the existing alternating non-negative least squares algorithm where it will alternatively fixes one matrix and improves the other.
