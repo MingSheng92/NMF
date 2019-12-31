@@ -38,7 +38,7 @@ As shown in the figure below, we manage to get a decent reconstuction(denoise) f
 
 From the figure above, though we have managed to reconstruct the image but it seems to over-smooth the image. YaleB dataset has better reconstruction result, as I believe this is due to the dataset have perfectly centered face compared to ORL dataset. This suggests that we need some pre-processing on ORL to obatain a better result.
 
-Part of the _W_(learned dictionary) is shown below.
+Part of the _W_(learned dictionary) for YaleB dataset is shown below.
 ![Figure3](https://github.com/MingSheng92/NMF/blob/master/learned_dict.jpg)
 
 ## How to use
@@ -47,7 +47,7 @@ Example on how to use program can be found at [PG-NMF_example.ipynb](https://git
 
 ## Future work 
 
-Will try to implement a few more different algorithms so that we can compare the robustness of different proposed approach.
+Implement other different algorithms so that we can compare the robustness of different proposed approach.
 
 ## Additional information
 
