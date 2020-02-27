@@ -1,6 +1,6 @@
 # Projected Gradient for Non-Negative Matrix Factorization
 
-This is only an attempt to implement NMF algorithm proposed in C. Lin, <b>"Projected Gradient Methods for Nonnegative Matrix Factorization,"</b> in Neural Computation, vol. 19, no. 10, pp. 2756-2779, Oct. 2007.
+Reimplementing NMF algorithm proposed in C. Lin, <b>"Projected Gradient Methods for Nonnegative Matrix Factorization,"</b> in Neural Computation, vol. 19, no. 10, pp. 2756-2779, Oct. 2007.
 doi: 10.1162/neco.2007.19.10.2756
 
 ## Introduction 
